@@ -26,7 +26,7 @@ namespace FuncTests
             double seconds = 3;
             double waitTime = TimeSpan.FromSeconds(seconds).TotalMilliseconds;
             // sent
-            MessageSender sender = new MessageSender(GggUtilities.QueueHello, null,
+            MessageSender sender = new MessageSender(GggUtilities.ExchangeDefault, GggUtilities.QueueHello,
                 autoDelete: false, exclusive: false, isDurable: false,
                 routingKey: GggUtilities.QueueHello);
             sender.SendMulti(10);
