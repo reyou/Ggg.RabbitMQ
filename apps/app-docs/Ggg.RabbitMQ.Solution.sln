@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandLines", "CommandLines", "{06A4279F-4042-46D4-9AD4-D1CA71263E19}"
+	ProjectSection(SolutionItems) = preProject
+		CommandLines\dotnet-commandLines.js = CommandLines\dotnet-commandLines.js
+		CommandLines\rabbitmq-commandLines.js = CommandLines\rabbitmq-commandLines.js
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{6545C207-82B2-43E0-82E0-A885ACA37474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{04339879-BB5A-4E2D-B3A7-89CC56AFD0D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{494CF4FB-5A6C-4F19-B6AA-163D8DCC3F4D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesClassLibrary", "UtilitiesClassLibrary\UtilitiesClassLibrary.csproj", "{E582E9BC-DA19-4E21-A7A9-809584ADA5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncTests", "FuncTests\FuncTests.csproj", "{2473B968-29DF-499C-B126-81F3D221059A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6545C207-82B2-43E0-82E0-A885ACA37474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6545C207-82B2-43E0-82E0-A885ACA37474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6545C207-82B2-43E0-82E0-A885ACA37474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6545C207-82B2-43E0-82E0-A885ACA37474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04339879-BB5A-4E2D-B3A7-89CC56AFD0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04339879-BB5A-4E2D-B3A7-89CC56AFD0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04339879-BB5A-4E2D-B3A7-89CC56AFD0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04339879-BB5A-4E2D-B3A7-89CC56AFD0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E582E9BC-DA19-4E21-A7A9-809584ADA5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E582E9BC-DA19-4E21-A7A9-809584ADA5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E582E9BC-DA19-4E21-A7A9-809584ADA5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E582E9BC-DA19-4E21-A7A9-809584ADA5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2473B968-29DF-499C-B126-81F3D221059A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2473B968-29DF-499C-B126-81F3D221059A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2473B968-29DF-499C-B126-81F3D221059A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2473B968-29DF-499C-B126-81F3D221059A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68356196-FDE4-40CE-B16B-04FCA3F0E256}
+	EndGlobalSection
+EndGlobal
