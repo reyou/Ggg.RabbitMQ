@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using RabbitMQ.Client;
 using TestUtilities;
 
@@ -18,11 +19,16 @@ namespace NewTaskConsole
                 {
                     IBasicProperties properties = channel.CreateBasicProperties();
                     properties.Persistent = true;
-
+                    channel.QueueDeclare(queue: "task_queue",
+                        durable: false,
+                        exclusive: false,
+                        autoDelete: false,
+                        arguments: null);
                     channel.BasicPublish(exchange: "",
                         routingKey: "task_queue",
                         basicProperties: properties,
                         body: body);
+                    Console.WriteLine(" [x] Worker-Sent {0}", body);
 
                 }
             }
