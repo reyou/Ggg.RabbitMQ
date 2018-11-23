@@ -4,7 +4,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using TestUtilities;
 
-namespace RoundRobinDispatchingConsole
+namespace MessageAcknowledgmentConsole
 {
     internal class MessageReaderCommon
     {
@@ -24,10 +24,11 @@ namespace RoundRobinDispatchingConsole
                 Console.WriteLine($"[{readerName}] Received {message.ToJsonString()}");
                 Console.WriteLine("");
                 Thread.Sleep(TimeSpan.FromSeconds(1));
+                channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
             };
             Console.WriteLine($"BasicConsume: {readerName} ThreadId: " + Thread.CurrentThread.ManagedThreadId);
             Console.WriteLine("");
-            channel.BasicConsume(queue: "round_robin", autoAck: true, consumer: consumer);
+            channel.BasicConsume(queue: "MessageAcknowledgment", autoAck: false, consumer: consumer);
 
         }
     }

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Text;
 
-namespace RoundRobinDispatchingConsole
+namespace MessageAcknowledgmentConsole
 {
     class Program
     {
@@ -9,11 +8,8 @@ namespace RoundRobinDispatchingConsole
         {
             MessageCreator.Start(100);
             MessageReader.Read();
-            MessageReader2.Read();
-            MessageReader3.Read();
             Console.WriteLine("Finish");
             Console.ReadLine();
         }
     }
 }
-
