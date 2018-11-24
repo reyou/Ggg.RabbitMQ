@@ -1,4 +1,6 @@
-﻿using RabbitMQ.Client;
+﻿using System;
+using System.Threading;
+using RabbitMQ.Client;
 
 namespace TestUtilities
 {
@@ -31,5 +33,14 @@ namespace TestUtilities
         }
 
 
+        public static void PrintThreadId(string messageTitle)
+        {
+            Console.WriteLine($"{messageTitle} ThreadId: " + Thread.CurrentThread.ManagedThreadId);
+        }
+
+        public static void SleepProducer()
+        {
+            Thread.Sleep(TimeSpan.FromSeconds(0.5));
+        }
     }
 }
