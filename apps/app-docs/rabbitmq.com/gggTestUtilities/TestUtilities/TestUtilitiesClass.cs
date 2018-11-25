@@ -42,5 +42,10 @@ namespace TestUtilities
         {
             Thread.Sleep(TimeSpan.FromSeconds(0.5));
         }
+
+        public static void SleepConsumer()
+        {
+            Thread.Sleep(TimeSpan.FromSeconds(1));
+        }
     }
 }

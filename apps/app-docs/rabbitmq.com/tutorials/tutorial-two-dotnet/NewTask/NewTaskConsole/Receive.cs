@@ -26,8 +26,8 @@ namespace NewTaskConsole
 
                     consumer.Received += (model, ea) =>
                     {
-                        var body = ea.Body;
-                        var message = Encoding.UTF8.GetString(body);
+                        byte[] body = ea.Body;
+                        string message = Encoding.UTF8.GetString(body);
                         Console.WriteLine(" [x] Received {0}", message);
 
                         int dots = message.Split('.').Length - 1;

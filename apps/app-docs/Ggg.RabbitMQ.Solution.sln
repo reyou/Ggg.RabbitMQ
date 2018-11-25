@@ -72,6 +72,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemporaryQueues", "Temporar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporaryQueuesConsole", "rabbitmq.com\tutorials\tutorial-three-dotnet\TemporaryQueues\TemporaryQueuesConsole\TemporaryQueuesConsole.csproj", "{94D2AFCD-783A-4125-B1F9-622EFD00C501}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PuttingItAllTogether", "PuttingItAllTogether", "{47268E04-0CCF-4643-8C39-588C4BAED4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuttingItAllTogetherConsole", "rabbitmq.com\tutorials\tutorial-three-dotnet\PuttingItAllTogether\PuttingItAllTogetherConsole\PuttingItAllTogetherConsole.csproj", "{01347214-9181-43F8-B1B5-B223E7076343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-four-dotnet", "tutorial-four-dotnet", "{42760708-244C-40EB-AFDC-1349B218276D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuttingItAllTogetherConsoleFour", "rabbitmq.com\tutorials\tutorial-four-dotnet\PuttingItAllTogether\PuttingItAllTogetherConsoleFour\PuttingItAllTogetherConsoleFour.csproj", "{E4E96739-AD4E-46B5-96A5-C422A4CB9739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +138,14 @@ Global
 		{94D2AFCD-783A-4125-B1F9-622EFD00C501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D2AFCD-783A-4125-B1F9-622EFD00C501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D2AFCD-783A-4125-B1F9-622EFD00C501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01347214-9181-43F8-B1B5-B223E7076343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01347214-9181-43F8-B1B5-B223E7076343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01347214-9181-43F8-B1B5-B223E7076343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01347214-9181-43F8-B1B5-B223E7076343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +175,10 @@ Global
 		{5DCAC0E4-8355-4CC8-8BA0-3D6B140BCA52} = {BA1D9486-1E99-42A5-9609-BF8FE8D3FC16}
 		{D6FB6551-DFCF-44DE-B813-3470CE47D52E} = {6C377895-257D-4BBB-A6CB-150ABD9F8306}
 		{94D2AFCD-783A-4125-B1F9-622EFD00C501} = {D6FB6551-DFCF-44DE-B813-3470CE47D52E}
+		{47268E04-0CCF-4643-8C39-588C4BAED4AD} = {6C377895-257D-4BBB-A6CB-150ABD9F8306}
+		{01347214-9181-43F8-B1B5-B223E7076343} = {47268E04-0CCF-4643-8C39-588C4BAED4AD}
+		{42760708-244C-40EB-AFDC-1349B218276D} = {2AEB94E8-0D01-4440-AC4F-842522C6C604}
+		{E4E96739-AD4E-46B5-96A5-C422A4CB9739} = {42760708-244C-40EB-AFDC-1349B218276D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68356196-FDE4-40CE-B16B-04FCA3F0E256}
