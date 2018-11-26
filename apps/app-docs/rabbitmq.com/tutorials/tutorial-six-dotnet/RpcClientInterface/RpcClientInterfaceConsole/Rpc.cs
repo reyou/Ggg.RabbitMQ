@@ -9,7 +9,7 @@ namespace RpcClientInterfaceConsole
         {
             RpcClient rpcClient = new RpcClient();
             TestUtilitiesClass.WriteLine("Rpc Main2 Requesting fib(30)");
-            string response = rpcClient.Call("30");
+            string response = rpcClient.Call("5");
             Console.WriteLine("Rpc Main2 Got '{0}'", response);
             rpcClient.Close();
         }

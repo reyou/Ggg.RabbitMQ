@@ -79,7 +79,8 @@ namespace RpcClientInterfaceConsole
         /// 
         private static int fib(int n)
         {
-            TestUtilitiesClass.WriteLine("fib is called: " + n);
+            TestUtilitiesClass.WriteLine("RPCServer fib is called: " + n);
+            TestUtilitiesClass.Sleep(0.5);
             if (n == 0 || n == 1)
             {
                 return n;

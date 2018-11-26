@@ -12,7 +12,8 @@ namespace TestUtilities
         {
             ConnectionFactory factory = new ConnectionFactory()
             {
-                HostName = "192.168.1.136",
+                HostName = "10.24.193.30",
+                // HostName = "192.168.1.136",
                 UserName = "admin",
                 Password = "password"
             };
@@ -58,6 +59,11 @@ namespace TestUtilities
             builder.Append("ThreadId: " + Thread.CurrentThread.ManagedThreadId);
             Console.WriteLine(builder.ToString());
             Console.WriteLine();
+        }
+
+        public static void Sleep(double seconds)
+        {
+            Thread.Sleep(TimeSpan.FromSeconds(seconds));
         }
     }
 }

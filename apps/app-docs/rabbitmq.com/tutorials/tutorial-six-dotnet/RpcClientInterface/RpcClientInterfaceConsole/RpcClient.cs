@@ -60,7 +60,7 @@ namespace RpcClientInterfaceConsole
                 consumer: consumer,
                 queue: replyQueueName,
                 autoAck: true);
-
+            // https://docs.microsoft.com/en-us/dotnet/standard/collections/thread-safe/blockingcollection-overview
             return respQueue.Take();
         }
 

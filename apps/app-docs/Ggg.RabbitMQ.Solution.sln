@@ -28,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "rabbitmq.com\tu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorials", "tutorials", "{2AEB94E8-0D01-4440-AC4F-842522C6C604}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-one-dotnet", "tutorial-one-dotnet", "{3F40C4FB-4BBF-4EE2-93F4-9789CACA7FD4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aaa-tutorial-one-dotnet", "aaa-tutorial-one-dotnet", "{3F40C4FB-4BBF-4EE2-93F4-9789CACA7FD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "send", "send", "{91CDABAC-D2D8-484C-B606-B451D9F6BBCC}"
 EndProject
@@ -44,7 +44,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gggTestUtilities", "gggTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUtilities", "rabbitmq.com\gggTestUtilities\TestUtilities\TestUtilities.csproj", "{ED5E4A31-D051-4DA5-A416-FD47AD824B04}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-two-dotnet", "tutorial-two-dotnet", "{910CCFEC-E9BB-4264-97EE-980A00AC001F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aab-tutorial-two-dotnet", "aab-tutorial-two-dotnet", "{910CCFEC-E9BB-4264-97EE-980A00AC001F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewTask", "NewTask", "{43C73404-0C24-4A27-B283-3410E3566B55}"
 EndProject
@@ -62,7 +62,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FairDispatch", "FairDispatc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairDispatchConsole", "rabbitmq.com\tutorials\tutorial-two-dotnet\FairDispatch\FairDispatchConsole\FairDispatchConsole.csproj", "{DF2CCAA8-E8F1-43EC-83E5-5B4C06AA56BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-three-dotnet", "tutorial-three-dotnet", "{6C377895-257D-4BBB-A6CB-150ABD9F8306}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aac-tutorial-three-dotnet", "aac-tutorial-three-dotnet", "{6C377895-257D-4BBB-A6CB-150ABD9F8306}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exchangeTypes", "exchangeTypes", "{BA1D9486-1E99-42A5-9609-BF8FE8D3FC16}"
 EndProject
@@ -76,15 +76,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PuttingItAllTogether", "Put
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuttingItAllTogetherConsole", "rabbitmq.com\tutorials\tutorial-three-dotnet\PuttingItAllTogether\PuttingItAllTogetherConsole\PuttingItAllTogetherConsole.csproj", "{01347214-9181-43F8-B1B5-B223E7076343}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-four-dotnet", "tutorial-four-dotnet", "{42760708-244C-40EB-AFDC-1349B218276D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aad-tutorial-four-dotnet", "aad-tutorial-four-dotnet", "{42760708-244C-40EB-AFDC-1349B218276D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuttingItAllTogetherConsoleFour", "rabbitmq.com\tutorials\tutorial-four-dotnet\PuttingItAllTogether\PuttingItAllTogetherConsoleFour\PuttingItAllTogetherConsoleFour.csproj", "{E4E96739-AD4E-46B5-96A5-C422A4CB9739}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-five-dotnet", "tutorial-five-dotnet", "{0DDD7961-FD62-4CE0-9440-3DE96CA17371}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aae-tutorial-five-dotnet", "aae-tutorial-five-dotnet", "{0DDD7961-FD62-4CE0-9440-3DE96CA17371}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchangeConsole", "rabbitmq.com\tutorials\tutorial-five-dotnet\TopicExchangeConsole\TopicExchangeConsole.csproj", "{C832369B-E401-49B4-B73C-5004961A9DE6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-six-dotnet", "tutorial-six-dotnet", "{AB0DADC3-0CC4-4DDD-9D9A-A2DF244D1C27}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aaf-tutorial-six-dotnet", "aaf-tutorial-six-dotnet", "{AB0DADC3-0CC4-4DDD-9D9A-A2DF244D1C27}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RpcClientInterface", "RpcClientInterface", "{6FB78B33-7435-4B86-88AF-655AE6E0EAC6}"
 EndProject
