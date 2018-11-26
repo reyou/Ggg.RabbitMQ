@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Threading;
 using RabbitMQ.Client;
 
@@ -46,6 +47,17 @@ namespace TestUtilities
         public static void SleepConsumer()
         {
             Thread.Sleep(TimeSpan.FromSeconds(1));
+        }
+
+        public static void WriteLine(string message)
+        {
+            Console.WriteLine();
+            StringBuilder builder = new StringBuilder();
+            builder.Append(message);
+            builder.Append(" ");
+            builder.Append("ThreadId: " + Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine(builder.ToString());
+            Console.WriteLine();
         }
     }
 }

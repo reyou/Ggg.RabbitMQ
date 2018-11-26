@@ -80,6 +80,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-four-dotnet", "tut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuttingItAllTogetherConsoleFour", "rabbitmq.com\tutorials\tutorial-four-dotnet\PuttingItAllTogether\PuttingItAllTogetherConsoleFour\PuttingItAllTogetherConsoleFour.csproj", "{E4E96739-AD4E-46B5-96A5-C422A4CB9739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-five-dotnet", "tutorial-five-dotnet", "{0DDD7961-FD62-4CE0-9440-3DE96CA17371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchangeConsole", "rabbitmq.com\tutorials\tutorial-five-dotnet\TopicExchangeConsole\TopicExchangeConsole.csproj", "{C832369B-E401-49B4-B73C-5004961A9DE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutorial-six-dotnet", "tutorial-six-dotnet", "{AB0DADC3-0CC4-4DDD-9D9A-A2DF244D1C27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RpcClientInterface", "RpcClientInterface", "{6FB78B33-7435-4B86-88AF-655AE6E0EAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcClientInterfaceConsole", "rabbitmq.com\tutorials\tutorial-six-dotnet\RpcClientInterface\RpcClientInterfaceConsole\RpcClientInterfaceConsole.csproj", "{972BD2E9-2410-479F-B9D2-12E8EC6D6207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +156,14 @@ Global
 		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E96739-AD4E-46B5-96A5-C422A4CB9739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C832369B-E401-49B4-B73C-5004961A9DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C832369B-E401-49B4-B73C-5004961A9DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C832369B-E401-49B4-B73C-5004961A9DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C832369B-E401-49B4-B73C-5004961A9DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972BD2E9-2410-479F-B9D2-12E8EC6D6207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972BD2E9-2410-479F-B9D2-12E8EC6D6207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972BD2E9-2410-479F-B9D2-12E8EC6D6207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972BD2E9-2410-479F-B9D2-12E8EC6D6207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +197,11 @@ Global
 		{01347214-9181-43F8-B1B5-B223E7076343} = {47268E04-0CCF-4643-8C39-588C4BAED4AD}
 		{42760708-244C-40EB-AFDC-1349B218276D} = {2AEB94E8-0D01-4440-AC4F-842522C6C604}
 		{E4E96739-AD4E-46B5-96A5-C422A4CB9739} = {42760708-244C-40EB-AFDC-1349B218276D}
+		{0DDD7961-FD62-4CE0-9440-3DE96CA17371} = {2AEB94E8-0D01-4440-AC4F-842522C6C604}
+		{C832369B-E401-49B4-B73C-5004961A9DE6} = {0DDD7961-FD62-4CE0-9440-3DE96CA17371}
+		{AB0DADC3-0CC4-4DDD-9D9A-A2DF244D1C27} = {2AEB94E8-0D01-4440-AC4F-842522C6C604}
+		{6FB78B33-7435-4B86-88AF-655AE6E0EAC6} = {AB0DADC3-0CC4-4DDD-9D9A-A2DF244D1C27}
+		{972BD2E9-2410-479F-B9D2-12E8EC6D6207} = {6FB78B33-7435-4B86-88AF-655AE6E0EAC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68356196-FDE4-40CE-B16B-04FCA3F0E256}
